@@ -1,0 +1,77 @@
+h1 {
+    color: black;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.words {
+    color: black;
+    align-items: center;
+    padding-left: 370px;
+    padding-right: 350px;
+}
+
+h1 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.pic-words {
+    display: flex;
+    flex-direction: row;
+    padding-left: 200px;
+    padding-top: 50px;
+    gap: 50px; 
+}
+
+.pic_1, .pic_2, .pic_3, .pic_4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 60px;
+    height: 8px;
+    width: 100px;
+}
+
+.captions {
+    width: 200px;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url("C:/Users/pcozo/alx_html_css/headphones/source-sans-pro/SourceSansPro-Bold.otf") format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url("C:/Users/pcozo/alx_html_css/headphones/source-sans-pro/SourceSansPro-Regular.otf");
+    font-weight: normal;
+}
+
+h1 {
+    font-family: 'SourceSansPro';
+    font-size: 32px;
+    color: #071629;
+    font-weight: bold;
+}
+
+.lorem {
+    width: 100px;
+    font-family: 'SourceSansPro';
+    font-size: 16px;
+    color: #071629;
+    font-weight: bold;
+}
+
+
+main, .words {
+    font-family: 'SourceSansPro';
+    font-size: 16px;
+    color: #071629;
+    font-weight: normal;
+}

@@ -1,0 +1,96 @@
+body {
+    background-color: black;
+    background-image: url("images/headphones_hero_1.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+main {
+    color: aliceblue;
+    align-items: center;
+    padding-top: 240px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+header {
+    padding-left: 150px;
+    display: flex;
+    flex-direction: row;
+    gap: 600px;
+}
+ul {
+    gap: 20px;
+    display: flex;
+    flex-direction: row;
+    font-size: 10px;
+}
+button {
+    background-color: #FF6565;
+    color:aliceblue;
+    height: 44px;
+    width: 162px;
+    border-radius: 22px;
+    border: none;
+}
+.centered {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    cursor: default;
+    color: aliceblue;
+}
+
+html, body {
+    height: 100%;
+}
+
+a:hover {
+    color: #FF6565;
+}
+
+button:hover {
+    opacity: 0.9
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url("C:/Users/pcozo/alx_html_css/headphones/source-sans-pro/SourceSansPro-Bold.otf") format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url("C:/Users/pcozo/alx_html_css/headphones/source-sans-pro/SourceSansPro-Regular.otf");
+    font-weight: normal;
+}
+
+h1 {
+    font-family: 'SourceSansPro';
+    font-size: 32px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+h2 {
+    padding-top: 0px;
+    padding-bottom: 20px;
+    font-family: 'SourceSansPro';
+    font-size: 16px;
+}
+
+p {
+    padding-top: 50px;
+    font-family: 'SourceSansPro';
+    font-size: 16px;
+    font-weight: normal;
+}
+
+body, footer {
+    font-family: 'SourceSansPro';
+    font-size: 16px; /* Adjust as needed */
+    color: #333; /* Optional text color */
+    font-weight: bold;
+}

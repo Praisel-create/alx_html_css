@@ -1,0 +1,59 @@
+main {
+    text-align: center;
+}
+
+body {
+    margin: 0;
+    padding-top: 130px;
+    color: aliceblue;
+    background-image: url("images/headphones_hero_2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+html, body {
+    height: 100%;
+}
+
+p {
+    padding-top: 20px;
+    padding-left: 350px;
+    padding-right: 350px;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    gap: 76px;
+    padding-left: 240px;
+    padding-top: 50px;
+    height: 150px;
+    width: 150px;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url("C:/Users/pcozo/alx_html_css/headphones/source-sans-pro/SourceSansPro-Bold.otf") format('opentype');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url("C:/Users/pcozo/alx_html_css/headphones/source-sans-pro/SourceSansPro-Regular.otf");
+    font-weight: normal;
+}
+
+.phrase {
+    font-family: 'SourceSansPro';
+    font-size: 16px;
+    color: #FFFFFF; 
+    font-weight: normal;
+}
+
+h1 {
+    font-family: 'SourceSansPro';
+    font-size: 32px;
+    color: #FFFFFF;
+    font-weight: bold;
+}
